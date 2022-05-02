@@ -1,0 +1,37 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "##Description Readme GEN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+"devDependencies": {},
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/josemiguel20000/new-new-2000.git"
+},
+"bugs": {
+  "url": "https://github.com/josemiguel20000/new-new-2000/issues"
+},
+"homepage": "https://github.com/josemiguel20000/new-new-2000/tree/main#readme"
+
+  ,
+  "configurations": [
+      {
+          "type": "node",
+          "request": "launch",
+          "name": "Launch Program",
+          "program": "${workspaceFolder}/app/release/web.js",
+          "outFiles": [
+              "${workspaceFolder}/**/*.js"
+          ],
+          "runtimeExecutable": "/root/.nvm/versions/node/v8.9.4/bin/node"
+      }
+  ]
+}
